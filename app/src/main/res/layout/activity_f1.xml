@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/fondop"
+    tools:context=".F1">
+
+    <TextView
+        android:id="@+id/textView21"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="36dp"
+        android:text="Rescate"
+        android:fontFamily="@font/mueda"
+        android:textSize="34sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <androidx.core.widget.NestedScrollView
+        android:layout_width="366dp"
+        android:layout_height="596dp"
+        android:layout_marginBottom="4dp"
+        android:fillViewport="true"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.488"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView21">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            tools:layout_editor_absoluteX="-188dp"
+            tools:layout_editor_absoluteY="585dp">
+
+            <TextView
+                android:id="@+id/textView22"
+                android:layout_width="match_parent"
+                android:layout_height="39dp"
+                android:text="Tipo de animal rescatado:"
+                android:textSize="20sp" />
+
+            <EditText
+                android:id="@+id/R1"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:ems="10"
+                android:inputType="text" />
+
+            <TextView
+                android:id="@+id/textView23"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Comportamiento y actitud del animal"
+                android:textSize="20sp" />
+
+            <EditText
+                android:id="@+id/R2"
+                android:layout_width="match_parent"
+                android:layout_height="68dp"
+                android:ems="10"
+                android:inputType="text" />
+
+            <TextView
+                android:id="@+id/textView24"
+                android:layout_width="match_parent"
+                android:layout_height="39dp"
+                android:text="Genero"
+                android:textSize="20sp" />
+
+            <RadioGroup
+                android:id="@+id/RG"
+                android:layout_width="match_parent"
+                android:layout_height="108dp">
+
+                <RadioButton
+                    android:id="@+id/M"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Macho"
+                    android:textSize="20sp" />
+
+                <RadioButton
+                    android:id="@+id/H"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Hembra"
+                    android:textSize="20sp" />
+            </RadioGroup>
+
+            <TextView
+                android:id="@+id/textView29"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Estado de salud general del animal"
+                android:textSize="20sp" />
+
+            <EditText
+                android:id="@+id/R3"
+                android:layout_width="match_parent"
+                android:layout_height="68dp"
+                android:ems="10"
+                android:inputType="text" />
+
+            <TextView
+                android:id="@+id/textView30"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Cualquier otra observación relevante"
+                android:textSize="20sp" />
+
+            <EditText
+                android:id="@+id/R4"
+                android:layout_width="match_parent"
+                android:layout_height="80dp"
+                android:ems="10"
+                android:inputType="text" />
+
+            <TextView
+                android:id="@+id/aler"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/design_default_color_error" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="32dp" />
+
+            <Button
+                android:id="@+id/sig"
+                android:layout_width="match_parent"
+                android:layout_height="68dp"
+                android:text="Siguiente"
+                android:textSize="20sp" />
+
+        </LinearLayout>
+    </androidx.core.widget.NestedScrollView>
+
+    <ImageButton
+        android:id="@+id/menu"
+        android:layout_width="75dp"
+        android:layout_height="70dp"
+        android:background="?attr/selectableItemBackground"
+        android:scaleType="centerInside"
+        app:srcCompat="@drawable/regresar"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="16dp" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

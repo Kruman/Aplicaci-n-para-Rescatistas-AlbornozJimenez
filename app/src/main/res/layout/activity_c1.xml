@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/textoprcipal"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/fondop"
+    tools:context=".C1">
+
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="420dp"
+        android:layout_height="100dp"
+        android:background="@android:drawable/editbox_dropdown_light_frame"
+        android:backgroundTint="#8AABBF"
+        android:orientation="horizontal"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.428"
+        app:layout_constraintStart_toStartOf="parent">
+
+        <ImageButton
+            android:id="@+id/init"
+            android:layout_width="140dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="?attr/selectableItemBackground"
+            android:scaleType="centerInside"
+            app:srcCompat="@drawable/inicio" />
+
+        <ImageButton
+            android:id="@+id/historial"
+            android:layout_width="140dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="?attr/selectableItemBackground"
+            android:scaleType="centerInside"
+            app:srcCompat="@drawable/historial" />
+
+        <ImageButton
+            android:id="@+id/datos"
+            android:layout_width="140dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="?attr/selectableItemBackground"
+            android:scaleType="centerInside"
+            app:srcCompat="@drawable/cuenta" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="44dp"
+        android:fontFamily="@font/mueda"
+        android:text="Principal"
+        android:textSize="48sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.114"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageButton
+        android:id="@+id/reporte"
+        android:layout_width="155sp"
+        android:layout_height="155dp"
+        android:layout_marginTop="96dp"
+        android:background="@android:drawable/progress_horizontal"
+        android:backgroundTint="#8AABBF"
+        android:scaleType="centerInside"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.187"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView2"
+        app:srcCompat="@drawable/reporte" />
+
+    <ImageButton
+        android:id="@+id/emergencia"
+        android:layout_width="155sp"
+        android:layout_height="155dp"
+        android:layout_marginTop="36dp"
+        android:background="@android:drawable/progress_horizontal"
+        android:backgroundTint="#8AABBF"
+        android:scaleType="centerInside"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.847"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/rescate"
+        app:srcCompat="@drawable/emergencia" />
+
+    <ImageButton
+        android:id="@+id/solicitud"
+        android:layout_width="155sp"
+        android:layout_height="155dp"
+        android:layout_marginTop="36dp"
+        android:background="@android:drawable/progress_horizontal"
+        android:backgroundTint="#8AABBF"
+        android:scaleType="centerInside"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.187"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/reporte"
+        app:srcCompat="@drawable/solicitud" />
+
+    <ImageButton
+        android:id="@+id/rescate"
+        android:layout_width="155sp"
+        android:layout_height="155dp"
+        android:layout_marginTop="96dp"
+        android:background="@android:drawable/progress_horizontal"
+        android:backgroundTint="#8AABBF"
+        android:scaleType="centerInside"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.847"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView2"
+        app:srcCompat="@drawable/rescate" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

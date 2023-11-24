@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">PrototipoUno</string>
+    <string name="btn">Camara</string>
+    <string name="iv_visor">visor</string>
+</resources>

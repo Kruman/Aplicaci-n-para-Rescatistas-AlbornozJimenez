@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/fondop"
+    tools:context=".I1">
+
+    <TextView
+        android:id="@+id/textView12"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="92dp"
+        android:layout_marginTop="68dp"
+        android:fontFamily="@font/mueda"
+        android:text="Emergencia"
+        android:textSize="48sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageButton
+        android:id="@+id/ini"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:background="?attr/selectableItemBackground"
+        android:scaleType="centerInside"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/regresar" />
+
+    <ImageButton
+        android:id="@+id/funda"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_marginStart="128dp"
+        android:layout_marginTop="112dp"
+        android:background="?attr/popupMenuBackground"
+        android:backgroundTint="#FFECB4"
+        android:scaleType="centerInside"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView12"
+        app:srcCompat="@drawable/fundacion" />
+
+    <ImageButton
+        android:id="@+id/nueveonce"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_marginStart="128dp"
+        android:layout_marginTop="36dp"
+        android:background="?attr/popupMenuBackground"
+        android:backgroundTint="#FFBEBE"
+        android:scaleType="centerInside"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/funda"
+        app:srcCompat="@drawable/nueveonce" />
+</androidx.constraintlayout.widget.ConstraintLayout>

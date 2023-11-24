@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <uses-feature
+        android:name="android.hardware.camera"
+        android:required="true" />
+
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.PrototipoUno"
+        tools:targetApi="31">
+        <activity
+            android:name=".C4"
+            android:exported="false" />
+        <activity
+            android:name=".C5"
+            android:exported="false" />
+        <activity
+            android:name=".C3"
+            android:exported="false" />
+        <activity
+            android:name=".C2"
+            android:exported="false" />
+        <activity
+            android:name=".AdminSQLiteOpenHelper"
+            android:exported="false" />
+        <activity
+            android:name=".I2"
+            android:exported="false" />
+        <activity
+            android:name=".J5"
+            android:exported="false" />
+        <activity
+            android:name=".J4"
+            android:exported="false" />
+        <activity
+            android:name=".J3"
+            android:exported="false" />
+        <activity
+            android:name=".F3"
+            android:exported="false" />
+        <activity
+            android:name=".E3"
+            android:exported="false" />
+        <activity
+            android:name=".J2"
+            android:exported="false" />
+        <activity
+            android:name=".B2"
+            android:exported="false" />
+        <activity
+            android:name=".H3"
+            android:exported="false" />
+        <activity
+            android:name=".F2"
+            android:exported="false" />
+        <activity
+            android:name=".I1"
+            android:exported="false" />
+        <activity
+            android:name=".J1"
+            android:exported="false" />
+        <activity
+            android:name=".G2"
+            android:exported="false" />
+        <activity
+            android:name=".H2"
+            android:exported="false" />
+        <activity
+            android:name=".G1"
+            android:exported="false" />
+        <activity
+            android:name=".D1"
+            android:exported="false" />
+        <activity
+            android:name=".F1"
+            android:exported="false" />
+        <activity
+            android:name=".E1"
+            android:exported="false" />
+        <activity
+            android:name=".C1"
+            android:exported="false" />
+        <activity
+            android:name=".B4"
+            android:exported="false" />
+        <activity
+            android:name=".B3"
+            android:exported="false" />
+        <activity
+            android:name=".Bienvenido"
+            android:exported="false" />
+        <activity
+            android:name=".Codigo"
+            android:exported="false" />
+        <activity
+            android:name=".E2"
+            android:exported="false" />
+        <activity
+            android:name=".H1"
+            android:exported="false" />
+        <activity
+            android:name=".B1"
+            android:exported="false" />
+        <activity
+            android:name=".A1"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
